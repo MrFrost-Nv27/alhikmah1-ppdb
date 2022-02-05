@@ -5,12 +5,10 @@
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
-              <h1 class="display-2 font-weight-bold mb-4">JeLi</h1>
+              <h1 class="display-2 font-weight-bold mb-4">PPDB Al Hikmah 1</h1>
               <h1 class="font-weight-light">
-                JeLi adalah singkatan dari "Jendela Literasi", yaitu platform
-                sistem informasi perpustakaan berbasis web milik PMII Bumiayu,
-                disediakan untuk memudahkan sahabat-sahabati dalam menemukan
-                pustaka guna mengakses jendela dunia
+                Ini adalah situs resmi PPDB dan PSB Yayasan Pendidikan Pondok
+                Pesantren Al Hikmah 1. Ayo Mondok!
               </h1>
               <v-btn
                 rounded
@@ -20,8 +18,8 @@
                 @click="$vuetify.goTo('#features')"
                 class="mt-5"
               >
-                Ringkasan Pustaka
-                <v-icon class="ml-2">mdi-arrow-down</v-icon>
+                Daftar Sekarang
+                <v-icon class="ml-2">mdi-arrow-right</v-icon>
               </v-btn>
               <div class="video d-flex align-center py-4">
                 <a @click.stop="dialog = true" class="playBut">
@@ -63,7 +61,7 @@
                     />
                   </svg>
                 </a>
-                <p class="subheading ml-2 mb-0">Intro JeLi</p>
+                <p class="subheading ml-2 mb-0">Panduan Pendaftaran</p>
               </div>
             </v-col>
             <v-col cols="12" md="6" xl="4" class="hidden-sm-and-down"> </v-col>

@@ -62,13 +62,13 @@
           <span class="mr-2">Beranda</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#features')">
-          <span class="mr-2">Pustaka</span>
+          <span class="mr-2">PPDB</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#download')">
-          <span class="mr-2">Mekanisme</span>
+          <span class="mr-2">Tentang</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#pricing')">
-          <span class="mr-2">Prakata</span>
+          <span class="mr-2">Langkah</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#contact')">
           <span class="mr-2">Hubungi</span>
